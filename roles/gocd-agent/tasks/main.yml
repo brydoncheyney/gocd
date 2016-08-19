@@ -1,0 +1,2 @@
+- name: install gocd-agent
+  yum: name=go-agent state=latest

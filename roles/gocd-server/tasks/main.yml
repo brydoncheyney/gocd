@@ -1,0 +1,2 @@
+- name: install gocd-server
+  yum: name=go-server state=latest

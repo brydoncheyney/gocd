@@ -1,0 +1,2 @@
+- name: add gocd repo
+  copy: src=files/gocd.repo dest=/etc/yum.repos.d/gocd.repo

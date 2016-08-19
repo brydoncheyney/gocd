@@ -1,0 +1,12 @@
+---
+- hosts: gocd-servers
+  roles:
+    - repos
+    - jdk
+    - gocd-server
+
+- hosts: gocd-agents
+  roles:
+    - repos
+    - jdk
+    - gocd-agent
